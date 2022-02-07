@@ -1,5 +1,7 @@
 //Este ejemplo fue realizado en Nodejs versión 13.12.0
 
+//Colocar "npm install" para que se instalen las dependencias necesarias para este ejemplo
+
 const {Board, Led} = require("johnny-five"); //de "Johnny Five" solo estaremos usando las clases "Board" y "Led" en este ejemplo
 const board = new Board({port: 'COM3'}); //Creamos una nueva tarjeta y le indicamos el puerto de esta tarjeta
 
