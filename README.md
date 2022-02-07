@@ -25,3 +25,5 @@ myBoard = new Board({port: "COM3"});
 Nota: "COM3" en Windows esos puertos generalmente vienen acompañados por el "COM", ya el numero podría variar. En Linux no usan "COM", es otra cosa, la cual pueden ver en el IDE de Arduino.
 
 c)te dice que falta "firmata": puedes intentar instalar firmata con "npm i firmata"  y se arreglaría, PERO en mi caso NO funcionó en la versión 16.13.0 de Nodejs, me tocó instalar la versión 13.12.0 de Nodejs con NVM y luego si instalar firmata con "npm i firmata".
+
+NOTA: como extra les dejo los instaladores de NVM (Node Version Manager) y Python 2.7.
